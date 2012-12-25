@@ -113,13 +113,18 @@ xmlhttp.send();
     <th><input name="idsuggest" type="text" id="idsuggest" onkeyup="showIdHint(this.value)"  /></th>
     <th><input type="text" name="namesuggest" id="namesuggest" onkeyup="showNameHint(this.value)" /></th>
     <th><input type="number" onKeyUp=""></th>
-    <th><input type="submit" value="confirm" id="confirm" name="confirm" class="btn" onClick="" /></th>
+    <th>&nbsp;</th>
     <th>&nbsp;</th>
   </tr>
-    <tr id="idHint">
-    
-  </tr>
+</table>
 
+<div id="idHint">
+
+</div>
+<table width="100%" class="table table-striped">
+
+</table>
+<table width="100%" class="table table-striped">
   <tr>
     <th width="4%">Sl</th>
     <th width="12%">Item Code</th>
